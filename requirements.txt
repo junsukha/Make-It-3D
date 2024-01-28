@@ -20,3 +20,7 @@ open3d==0.10.0.0
 torchmetrics
 tensorboard
 torch-ema
+PyMCubes
+pandas
+imageio
+rich
