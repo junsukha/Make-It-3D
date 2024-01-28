@@ -24,3 +24,5 @@ PyMCubes
 pandas
 imageio
 rich
+timm
+transformers
