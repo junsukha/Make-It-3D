@@ -37,11 +37,13 @@
 
 
 ## Installation
-Use python version 3.7. (3.9 doesn't work)
+I Use python version 3.8.18 (3.9 doesn't work)
 
 Install with pip:
 ```
-    pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio===0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
+    # pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio===0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
+    # CUDA 11.8
+    pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
     pip install git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
     pip install git+https://github.com/openai/CLIP.git
     pip install git+https://github.com/huggingface/diffusers.git
