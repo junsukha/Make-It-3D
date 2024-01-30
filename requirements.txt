@@ -26,3 +26,4 @@ imageio
 rich
 timm
 transformers
+accelerate
